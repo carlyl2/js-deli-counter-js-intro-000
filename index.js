@@ -20,7 +20,7 @@ function nowServing (line){
       return "The line is currently empty."
     }
     else {
-      for (i = 0; i < line.length; i++){
+      for (let i = 0; i < line.length; i++){
         if (i === 0){
           statement += [i+1] + ". " + line[i]
         }
